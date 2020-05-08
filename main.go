@@ -13,7 +13,7 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
   <html>
     <meta charset='UTF-8'>
     <body>
-       <h1>Hello Docker <font color=‘blue’>二階堂</font>   on CentOS7 .</h1>
+       <h1>Hello Docker <font color=‘green’>二階堂</font>   on CentOS7 .</h1>
     </body>
   </html>`
 
