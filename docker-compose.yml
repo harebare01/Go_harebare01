@@ -1,0 +1,17 @@
+jenkins:
+  image: jenkins
+  user: root
+  volumes:
+    - /home/vagrant/proj5/jenkins_home:/var/jenkins_home
+    - /var/run/docker.sock:/var/run/docker.sock
+    - /usr/bin/docker:/usr/bin/docker
+    - /usr/lib/x86_64-linux-gnu/libapparmor.so.1:/lib/x86_64-linux-gnu/libapparmor.so.1
+    - /usr/lib64/libdevmapper.so.1.02:/lib/x86_64-linux-gnu/libdevmapper.so.1.02
+    - /lib/x86_64-linux-gnu/libsystemd-journal.so.0:/lib/x86_64-linux-gnu/libsystemd-journal.so.0
+    - /lib/x86_64-linux-gnu/libcgmanager.so.0:/lib/x86_64-linux-gnu/libcgmanager.so.0
+    - /lib/x86_64-linux-gnu/libnih.so.1:/lib/x86_64-linux-gnu/libnih.so.1
+    - /lib/x86_64-linux-gnu/libnih-dbus.so.1:/lib/x86_64-linux-gnu/libnih-dbus.so.1
+    - /lib/x86_64-linux-gnu/libgcrypt.so.11:/lib/x86_64-linux-gnu/libgcrypt.so.11
+  ports:
+    - "8080:8080"
+    - "50000:50000"
