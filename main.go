@@ -11,8 +11,9 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
   str := `
 <!DOCTYPE html>
 <html lang="ja">
-<head><meta charset="utf-8"><title>Dockerデモ</title>
+<head><meta charset="utf-8">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<title>Dockerデモ</title>
   <body>
     <div class="has-text-centered">
       <dev class="is-size-1">二階堂春雄 with CI/CI</dev>
