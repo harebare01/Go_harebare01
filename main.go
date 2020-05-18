@@ -16,7 +16,7 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
 <title>Dockerデモ</title>
   <body>
     <div class="has-text-centered">
-      <dev class="is-size-1">二階堂春雄 with CI/CD</dev>
+      <dev class="is-size-1">二階堂 with CI/CD</dev>
     </dev>
   </body>
 </html>`
