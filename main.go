@@ -12,13 +12,14 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
 <!DOCTYPE html>
 <html lang="ja">
 <head><meta charset="utf-8">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-<title>Dockerデモ</title>
-  <body>
-    <div class="has-text-centered">
-      <dev class="is-size-1">二階堂 with CI/CD</dev>
-    </dev>
-  </body>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <title>Dockerデモ</title>
+</head>
+<body>
+  <div class="has-text-centered">
+    <dev class="is-size-1 is-info">二階堂 with CI/CD</dev>
+  </dev>
+</body>
 </html>`
   w.Write([]byte(str))
 }
