@@ -17,7 +17,7 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
 </head>
 <body>
   <div class="has-text-centered">
-    <dev class="is-size-1 has-text-danger">二階堂 with CI/CD</dev>
+  <dev class="is-size-1 has-text-danger">二階堂春雄: Uniadex with CI/CD</dev>
   </dev>
 </body>
 </html>`
