@@ -17,7 +17,7 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
   <body>
     <div class="has-text-centered">
-      <dev class="is-size-1">二階堂 with CI/CD</dev>
+      <dev class="is-size-1">二階堂春雄 with CI/CD</dev>
     </dev>
   </body>
 </html>`
